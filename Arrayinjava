@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main{
+   public static void main(String args[]){
+       int min,len;
+       int arr[] = new int[200];
+       Scanner sc = new Scanner(System.in);
+	   
+       System.out.print("Enter Length of the array : ");
+       len = sc.nextInt();
+	   
+       System.out.print("Enter elements in the array : ");
+       for(int i=0; i<len; i++)
+       {
+           arr[i] = sc.nextInt();
+       }
+	   
+       min = arr[0];
+	   
+       for(int i=0; i<len; i++)
+       {
+           if(min > arr[i])
+           {
+               min = arr[i];
+           }
+           
+       }
+	   
+       System.out.print("Smallest Element of the array is = " + min); 
+   }
+}
