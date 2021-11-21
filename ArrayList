@@ -1,0 +1,81 @@
+#java program on Arraylist ArrayList<Type> arrayList= new ArrayList<>()
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(6);
+        list.add(9);
+        list.add(8);
+        System.out.println("Arraylist is: "list);
+    }
+}
+
+# java program on Arraylist to add 
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args){
+    // create ArrayList
+    ArrayList<String> languages = new ArrayList<>();
+    // add() method without the index parameter
+    languages.add("Java");
+    languages.add("C");
+    languages.add("Python");
+    System.out.println("ArrayList: " + languages);
+  }
+}
+#java program to access data Arraylist
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<String> animals = new ArrayList<>();
+
+    // add elements in the arraylist
+    animals.add("Cat");
+    animals.add("Dog");
+    animals.add("Cow");
+    System.out.println("ArrayList: " + animals);
+
+    // get the element from the arraylist
+    String str = animals.get(1);
+    System.out.print("Element at index 1: " + str);
+  }
+}
+#java program change Arraylist
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<String> languages = new ArrayList<>();
+
+    // add elements in the array list
+    languages.add("Java");
+    languages.add("Kotlin");
+    languages.add("C++");
+    System.out.println("ArrayList: " + languages);
+
+    // change the element of the array list
+    languages.set(2, "JavaScript");
+    System.out.println("Modified ArrayList: " + languages);
+  }
+}
+#java program remove
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<String> animals = new ArrayList<>();
+
+    // add elements in the array list
+    animals.add("Dog");
+    animals.add("Cat");
+    animals.add("Horse");
+    System.out.println("ArrayList: " + animals);
+
+    // remove element from index 2
+    String str = animals.remove(2);
+    System.out.println("Updated ArrayList: " + animals);
+    System.out.println("Removed Element: " + str);
+  }
+}
